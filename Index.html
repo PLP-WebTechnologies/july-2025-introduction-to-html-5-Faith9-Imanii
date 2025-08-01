@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A sample HTML5 page demonstrating semantic structure, accessibility, and SEO basics.">
+    <title>HTML5 Accessibility & SEO Basics</title>
+</head>
+<body>
+    <header role="banner">
+        <h1>HTML5 Semantic Web Page</h1>
+        <nav aria-label="Primary navigation">
+            <ul>
+                <li><a href="#content">Skip to Content</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resources">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="content" role="main">
+        <article>
+            <h2>Semantic HTML5 Structure</h2>
+            <p>This page uses semantic tags like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, and <code>&lt;footer&gt;</code> for better accessibility and SEO.</p>
+            
+            <section aria-labelledby="accessibility-heading">
+                <h3 id="accessibility-heading">Accessibility Features</h3>
+                <ul>
+                    <li>Landmark roles (<code>role="banner"</code>, <code>role="main"</code>)</li>
+                    <li>Skip navigation link</li>
+                    <li>ARIA labels for screen readers</li>
+                </ul>
+            </section>
+
+            <section aria-labelledby="seo-heading">
+                <h3 id="seo-heading">SEO Basics</h3>
+                <p>Hierarchical headings, descriptive metadata, and meaningful content.</p>
+            </section>
+        </article>
+    </main>
+
+    <aside aria-label="Additional resources">
+        <h2>Resources</h2>
+        <ul>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN HTML5 Guide</a></li>
+            <li><a href="https://www.w3.org/WAI/standards-guidelines/aria/">WAI-ARIA</a></li>
+        </ul>
+    </aside>
+
+    <footer role="contentinfo">
+        <p>&copy; 2025 PLP Web Technologies. All rights reserved.</p>
+    </footer>
+</body>
+</html>
